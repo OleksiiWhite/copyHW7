@@ -1,15 +1,7 @@
-// @import "./utils/variables";
-// @import "./utils/placeholders";
-// @import "./utils/mixins";
-// @import "./base/normalize";
-// @import "./components/page-header";
-// @import "./components/logo";
 @import "./utils/vars";
+@import "./utils/placeholders";
+@import "./components/general";
 @import "./components/logo";
-.logo {
-  background-color: red;
-
-  &:hover {
-    background-color: orange;
-  }
-}
+@import "./components/hero";
+@import "./components/hero-button";
+@import "./components/features";

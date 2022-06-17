@@ -1,0 +1,69 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  user-select: none;
+
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration-line: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.impotent,
+.comand,
+.portfolio-nav,
+.clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.works {
+  padding-bottom: 94px;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: var(--title-text-color);
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.comand {
+  background-color: var(--secondary-bgcolor);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  &--topline {
+    display: flex;
+    align-items: center;
+  }
+}
